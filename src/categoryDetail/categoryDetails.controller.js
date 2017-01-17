@@ -8,8 +8,6 @@ CategoryDetailsController.$inject = ['category'];
 function CategoryDetailsController(categoryDetails) {
     var ctrl = this;
 
-    console.log(categoryDetails);
-
     ctrl.items = categoryDetails.menu_items;
     ctrl.categoryName = categoryDetails.category.name;
 }

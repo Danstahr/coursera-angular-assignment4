@@ -8,8 +8,6 @@ CategoriesRouterController.$inject = ['categories'];
 function CategoriesRouterController(categories) {
     var categoriesCtrl = this;
 
-    console.log(categories);
-
     categoriesCtrl.categories = categories;
 }
 })();
